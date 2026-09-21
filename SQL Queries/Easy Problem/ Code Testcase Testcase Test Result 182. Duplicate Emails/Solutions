@@ -1,0 +1,11 @@
+
+Explanation: 
+a@b.com is repeated two times.
+
+
+Query:
+
+SELECT email as Email 
+FROM Person 
+group by email 
+having count(*)>1;
